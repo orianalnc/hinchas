@@ -10,6 +10,31 @@ print_r($_GET);
 
 echo "----</pre>";
 */
+
+  //API PARA OBTENER LOS HINCHAS DE UN CLUB
+    $ch = curl_init("http://api.apptorneofox.com/api/hinchas_club"); 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE); 
+    curl_setopt($ch, CURLOPT_POST, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+    $output = curl_exec($ch);   
+    curl_close($ch);
+    $data = json_decode($output);
+    //Ver el Resultado del API
+    /*
+      foreach ($data->data as $equipo ) {
+      ?>
+        <h2 align="center">VALOR DEL OBJETO</h2>
+        <h3>Nombre : <?php echo $equipo->nombre ;  ?></h3>
+        <h3>Escudo: <img style="height: 15%;"  src="<?php echo $equipo->escudo ;?>" alt=""></h3>
+        <h3>Cantidad de hinchas: <?php  echo $equipo->hinchas ;?></h3>
+        <hr>
+      <?php
+       
+      }
+      //FIN DE API PARA OBTENER HINCHAS DE UN CLUB
+       return 1;
+    */     
 ?>
 
 <!DOCTYPE html>
