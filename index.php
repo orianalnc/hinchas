@@ -31,6 +31,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Hinchas</title>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 <div class="container">
@@ -38,14 +40,10 @@
         <div class="title">
         <h2 class="text-center uppercase " >LA HINCHADA MÁS GRANDE</h2>
         </div>
-        
-    
-
       <table>
-
         <tr>
           <td>
-              <img style="height: 20%;" src="<?php echo $data[0]->escudo ;?>" alt="">
+              <img style="width: 80px; height: 80px;"  src="<?php echo $data[0]->escudo ;?>" alt="">
           </td>
           <td>
               <div class="progress-pie-chart" data-percent="<?php echo (int)$hinchas_equipo_1 ;?>">
@@ -61,7 +59,7 @@
           </td>
 
           <td>
-            <img style="height: 20%;" src="<?php echo $data[1]->escudo ;?>" alt="">
+            <img style="width: 80px; height: 80px;" src="<?php echo $data[1]->escudo ;?>" alt="">
           </td>
 
           <td>
@@ -76,32 +74,15 @@
                   </div>
               </div>
           </td>
-
         </tr>
-
         <tr>
         <td>
-            <img style="height: 20%;" src="<?php echo $data[2]->escudo ;?>" alt="">
-        </td>
-        <td>
-            <div class="progress-pie-chart" data-percent="<?php echo (int)$hinchas_equipo_3 ;?>">
-                <div class="ppc-progress">
-                    <div class="ppc-progress-fill green"></div>
-                </div>
-                <div class="ppc-percents">
-                    <div class="pcc-percents-wrapper">
-                    <span><?php echo (int)$hinchas_equipo_3 ;?> %</span>
-                    </div>
-                </div>
-            </div>
-        </td>
-        <td>
-        <img style="height: 20%;" src="<?php echo $data[3]->escudo ;?>" alt="">
+        <img style="width: 80px; height: 80px;" src="<?php echo $data[3]->escudo ;?>" alt="">
     </td>
     <td>
         <div class="progress-pie-chart" data-percent="<?php echo (int)$hinchas_equipo_4 ;?>">
             <div class="ppc-progress">
-                <div class="ppc-progress-fill red"></div>
+                <div class="ppc-progress-fill green"></div>
             </div>
             <div class="ppc-percents">
                 <div class="pcc-percents-wrapper">
@@ -110,12 +91,23 @@
             </div>
         </div>
     </td>
+        <td>
+            <img style="width: 80px; height: 80px;" src="<?php echo $data[2]->escudo ;?>" alt="">
+        </td>
+        <td>
+            <div class="progress-pie-chart" data-percent="<?php echo (int)$hinchas_equipo_3 ;?>">
+                <div class="ppc-progress">
+                    <div class="ppc-progress-fill red"></div>
+                </div>
+                <div class="ppc-percents">
+                    <div class="pcc-percents-wrapper">
+                    <span><?php echo (int)$hinchas_equipo_3 ;?> %</span>
+                    </div>
+                </div>
+            </div>
+        </td>
     </tr>
-      
       </table> 
-
-      
-
     </div>
 
    

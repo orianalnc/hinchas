@@ -1,6 +1,6 @@
 .bg{
-    background: url(fondo.jpg) no-repeat bottom center;
-    padding: 1em 0 0 0;
+    background: url(fondo.png) no-repeat bottom center;
+    padding: 1em 0 1em 0;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
@@ -20,8 +20,9 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #E5E5E5;
+  background-color: #ffffff;
   position: relative;
+border: 1px solid #e5e5e5;
 }
 .progress-pie-chart.gt-50 {
   background-color: #81CE97;
@@ -74,7 +75,7 @@
   top: calc(50% - 53.3333333333px/2);
   width: 53.3333333333px;
   height: 53.3333333333px;
-  background: #fff;
+  background-image: url(fondo.png);
   text-align: center;
   display: table;
 }
@@ -82,7 +83,7 @@
   display: block;
   font-size: 1em;
   font-weight: bold;
-  color: #000;
+  color: #ffffff;
 }
 
 .pcc-percents-wrapper {
@@ -107,4 +108,15 @@
 .title{
   color: #FFFFFF;
 
+}
+
+/* imagen */
+
+.img-scd{
+  width: 80px;
+  height: 80px;
+}
+
+table{
+  margin: auto;
 }
