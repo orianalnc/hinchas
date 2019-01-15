@@ -8,15 +8,17 @@
 #container {
   padding: 0;
   margin: 0;
-  background: url(fondo.jpg) fixed no-repeat center bottom  #fff;
+  background: url(fondo.png) fixed no-repeat center bottom  #fff;
   margin: 0 auto;
   min-height: 100vh;
 
 }
 
+/* style progress */
+
 .progress-pie-chart {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: #E5E5E5;
   position: relative;
@@ -29,22 +31,22 @@
   content: "";
   position: absolute;
   border-radius: 50%;
-  left: calc(50% - 30px);
-  top: calc(50% - 30px);
-  width: 60px;
-  height: 60px;
-  clip: rect(0, 60px, 60px, 30px);
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  clip: rect(0, 80px, 80px, 40px);
 }
 .ppc-progress .ppc-progress-fill {
   content: "";
   position: absolute;
   border-radius: 50%;
-  left: calc(50% - 30px);
-  top: calc(50% - 30px);
-  width: 60px;
-  height: 60px;
-  clip: rect(0, 30px, 60px, 0);
-  background: #38c016;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  clip: rect(0, 40px, 80px, 0);
+  background: #ffff0f;
   transform: rotate(60deg);
 }
 .ppc-progress .ppc-progress-fill.red {
@@ -53,11 +55,14 @@
 .ppc-progress .ppc-progress-fill.blue {
   background: #0050ed;
 }
+.ppc-progress .ppc-progress-fill.green {
+  background: #38c016;
+}
 .gt-50 .ppc-progress {
-  clip: rect(0, 30px, 60px, 0);
+  clip: rect(0, 40px, 80px, 0);
 }
 .gt-50 .ppc-progress .ppc-progress-fill {
-  clip: rect(0, 60px, 60px, 30px);
+  clip: rect(0, 80px, 80px, 40px);
   background: #E5E5E5;
 }
 
@@ -65,10 +70,10 @@
   content: "";
   position: absolute;
   border-radius: 50%;
-  left: calc(50% - 52.1739130435px/2);
-  top: calc(50% - 52.1739130435px/2);
-  width: 52.1739130435px;
-  height: 52.1739130435px;
+  left: calc(50% - 53.3333333333px/2);
+  top: calc(50% - 53.3333333333px/2);
+  width: 53.3333333333px;
+  height: 53.3333333333px;
   background: #fff;
   text-align: center;
   display: table;
@@ -77,7 +82,7 @@
   display: block;
   font-size: 1em;
   font-weight: bold;
-  color: #81CE97;
+  color: #000;
 }
 
 .pcc-percents-wrapper {
@@ -86,3 +91,20 @@
 }
 
 
+
+/* Text style */
+.uppercase{
+  text-transform: uppercase
+}
+.bold{
+  font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.title{
+  color: #FFFFFF;
+
+}
