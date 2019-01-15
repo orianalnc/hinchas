@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+ @viewport {
+    width: 400px;
+    min-zoom: 1;
+    max-zoom: 4;
+    orientation: portrait;
+    
+}
+.polla {
+	background: url(fondo.png) no-repeat bottom center;
+	padding: 1em 0 0 0;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.gradiente_gris, #inferior{
+	background: rgb(76,76,70);
+	background: linear-gradient(0deg, rgba(76,76,70,1) 4%, rgba(76,76,70,1) 5%, rgba(85,85,78,1) 23%, rgba(85,85,78,1) 93%, rgba(122,122,117,1) 100%);
+}
+
+.resultados {
+	background-color: #01203d;
+	color: #ffffff;
+	border-radius: 6px;
+	width: 150px !important;
+	height: 50px;
+	border: 0px solid;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+.polla-link{
+	background-color: #01203d;
+	color: #ffffff;
+	border-radius: 6px;
+	width: 150px !important;
+	height: 50px;
+	border: 0px solid;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 20px;
+	font-weight: bold;
+}
+.inicio {
+	background-color: #01203d;
+	color: #ffffff;
+	width: 150px !important;
+	height: 50px;
+	border: 0px solid;
+	border-radius: 6px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+		font-weight: bold;
+}
+
+/* The Modal (background) */
+.instrucciones {
+  padding-top: 10px;
+  background:  scroll no-repeat center bottom #ffffff;
+  min-height: 1202px;
+}
+.instrucciones > img {
+	width: 100%;
+	z-index: 99999999999;
+	height: auto;
+}
+
+/* Modal Content */
+
+
+/* The Close Button */
+.close {
+	color: white;
+	position: absolute;
+	top: 0px;
+	right: 25px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+.inferiot_texto{
+font-size:12px;
+}
+
+.fecha{
+font-size:10px;
+}
+.logo{
+
+float: left;
+}
+ #container {
+  padding: 0;
+  margin: 0;
+  background: url(fondo.png) fixed no-repeat center bottom  #fff;
+  margin: 0 auto;
+  min-height: 100vh;
+
+}
+html{
+height:100%; /*Siempre es necesario cuando trabajamos con alturas*/
+}
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background:  scroll no-repeat center bottom  #ffffff;
+            color: #01203d;
+			height: 100%;
+			overflow-x: hidden;
+        }
+        .titulo,
+        center {
+            text-align: center;
+        }
+        span.center {
+            text-align: center;
+            margin: auto;
+            width: 100px;
+            display: block;
+            padding-top: 14px;
+        }
+        span.center2 {
+            text-align: center;
+            
+        }
+        h2 {
+	margin: 0px;
+	font-size: 14px;
+}
+h5 {
+	margin: 0px;
+		font-size: 12px;
+	
+}
+tr.tr-2 {
+	border-bottom: 1px solid #01203d;
+	text-align: center;
+}
+        
+        
+        tr.tr-1 {
+            border-bottom: 1px solid #01203d;
+        }
+        tr {
+	display: inline-table;
+	width: 100%;
+}
+.tr {
+	text-align: center;
+	padding: .5em 0;
+}
+.jugadores > img {
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+
+        table {
+            width: 100%;
+            padding: 0px;
+        }
+        .predecir {
+			background-color: #01203d;
+			color: #ffffff;
+			border-radius: 6px;
+            padding: 10px;
+            border-radius: 4px;
+            border: 0px;
+            font-size: 18px;
+        }
+   .local, .visitante {
+	width: 30%;
+	line-height: 22px;
+	font-size: 12px;
+	vertical-align: top;
+}
+.local {
+	padding-left: 10px;
+	text-align: center;
+
+}
+.visitante {
+		padding-right: 10px;
+     	text-align: center;
+
+}
+.imagen_v, .imagen_l {
+	width: 5%;
+	
+}
+
+#imagen {
+	top: 4px;
+	padding-top: 0px;
+	position: relative;
+}
+.marcador {
+	width: 5%;
+	text-align: center;
+}
+.divisor {
+	width: 1%;
+	text-align: center;
+	color: #01203d;
+	padding: 0 .5em;
+	font-size: 18px;
+}
+input.marcador {
+	width: 35px;
+	height: 20px;
+	border-radius: 6px;
+	background-color: #fff;
+	border: 1px solid #01203d;
+}
+#inferior{
+color: #fff;
+
+bottom: 0;
+        height: 45px;
+        padding: 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 5000;
+ }
+ .nav {
+	width: 100%;
+	background: transparent;
+	height: 50px;
+	display: inline-flex;
+	margin: 10px 0;
+}
+.nav-iner {
+	width: 50%;
+	text-align: center;
+}
+button {
+	width: 100px;
+	height: 39px;
+	border-radius: 0px;
+}
+ 
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.divider{
+	height: 1px;
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #01203d;
+}
+
+.logo{
+	text-align: center;
+	background-color: #01203d;
+	color: #ffffff;
+	width: 100%;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.description{
+	background-color: #fff;
+	color: #01203d;
+	text-align: center;
+	padding: .3em .2em;
+}
+.points{
+	background-color: #fff;
+	color: #01203d;
+	padding: .3em .2em;
+
+}
+
+.shadow{
+	-webkit-box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.32);
+	box-shadow: 0px 9px 5px -4px rgba(0,0,0,0.32);
+}
+
+
+table{
+	border: 0;
+}
+
+h4{
+	margin: 5px 0;
+}
+
+.small{
+	font-size: 10px;
+}
+
+.resultados_actualizados{
+    background-color: #01203d;
+	color: #ffffff;
+
+	width: 100%!important;
+	height: 30px;
+	border: 0px solid;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin:0px;
+
+}
