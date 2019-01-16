@@ -52,7 +52,7 @@
                   </div>
                   <div class="ppc-percents">
                       <div class="pcc-percents-wrapper">
-                      <span><?php echo (int)$hinchas_equipo_1 ;?> %</span>
+                      <span><?php echo round($hinchas_equipo_1) ;?> %</span>
                       </div>
                   </div>
               </div>
@@ -69,7 +69,7 @@
                   </div>
                   <div class="ppc-percents">
                       <div class="pcc-percents-wrapper">
-                      <span><?php echo (int)$hinchas_equipo_2 ;?> %</span>
+                      <span><?php echo round($hinchas_equipo_2) ;?> %</span>
                       </div>
                   </div>
               </div>
@@ -86,7 +86,7 @@
             </div>
             <div class="ppc-percents">
                 <div class="pcc-percents-wrapper">
-                <span><?php echo (int)$hinchas_equipo_4 ;?> %</span>
+                <span><?php echo round($hinchas_equipo_4) ;?> %</span>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="ppc-percents">
                     <div class="pcc-percents-wrapper">
-                    <span><?php echo (int)$hinchas_equipo_3 ;?> %</span>
+                    <span><?php echo round($hinchas_equipo_3) ;?> %</span>
                     </div>
                 </div>
             </div>
